@@ -2,7 +2,7 @@
     padding-top: 50px;
     padding-bottom: 20px;
     color: cornsilk;
-    
+    background-image: url('../images/brokenglass.jpg');
 }
 
 /* Wrapping element */
@@ -10,7 +10,8 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    color:cornsilk;
+    color: cornsilk;
+    
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
