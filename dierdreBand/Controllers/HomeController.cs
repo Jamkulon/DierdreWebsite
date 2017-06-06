@@ -67,6 +67,14 @@ namespace dierdreBand.Controllers
 
             return View();
         }
+
+        public IActionResult Photos()
+        {
+            ViewData["Message"] = "Your PhotosPage.";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
