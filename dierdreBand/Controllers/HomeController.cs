@@ -54,7 +54,19 @@ namespace dierdreBand.Controllers
 
             return View();
         }
+        public IActionResult Music()
+        {
+            ViewData["Message"] = "Your MusicianPage.";
 
+            return View();
+        }
+
+        public IActionResult Video()
+        {
+            ViewData["Message"] = "Your MusicianPage.";
+
+            return View();
+        }
         public IActionResult Error()
         {
             return View();

@@ -1,29 +1,35 @@
 ﻿<style>
     body {
-        background-color: darkslategrey;
+        background-color: black;
+    }
+
+    input {
+        color:black;
+        
+    }
+
+    input:focus {
+        background-color:cornflowerblue;
     }
 </style>
 
 <image>
-    <img src="~/images/LogoBlack.png" />
+    <center><img src="~/images/LogoBlack.png" /></center>
 </image>
 
-<h2>For More Information or to Contact Us, Please Visit Us on <a href="https://www.facebook.com/dierdremusic/"><u>Facebook</u></a></h2>
+<h2>For Booking Information or Questions, Please Visit Us on <a href="https://www.facebook.com/dierdremusic/"><u>Facebook</u></a></h2>
+<h2> OR </h2>
+<h2>Send Us an Email by Filling Out the Form Below:</h2>
 
-@*@{
-        ViewData["Title"] = "Contact";
-    }
-    <h2>@ViewData["Title"].</h2>
-    <h3>@ViewData["Message"]</h3>
-
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
-
-    <address>
-        <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>*@
+<form action="https://formspree.io/dierdremusic@gmail.com"
+      method="post">
+    
+    Name:<br>
+    <input  placeholder="Name"  type="text" name="name"><br>
+    E-mail:<br>
+    <input  placeholder="Email Address"  type="text" name="mail"><br>
+    Comment:<br>
+    <input  placeholder="Leave a Comment, 50 Character Max"  type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+</form>
