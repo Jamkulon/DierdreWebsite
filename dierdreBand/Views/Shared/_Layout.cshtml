@@ -2,7 +2,7 @@
 <html>
 <head>
 
-        <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
 
@@ -28,10 +28,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"></a>
+                @*<div>
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
+                        <img src="~/images/SmallLogo.png" title="Home" />
+                    </a>
+                </div>*@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
@@ -41,14 +46,14 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Store">Shop</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Musicians">Meet the Band</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Press">Press</a></li>
-                    @*<li><a asp-area="" asp-controller="Home" asp-action="Photos">Photo Gallery</a></li>*@
+                    <li><a asp-area="" asp-controller="Home" asp-action="Photos">Photo Gallery</a></li>
 
-                    <img src="~/images/Social Media Icons/icons8-Unicorn-48.png" title="Mikey"; style="padding:10px; padding-top:10px; float:right" />
-                    <a href="https://www.facebook.com/dierdremusic/"><img src="~/images/Social Media Icons/grayFB.png" title="Facebook"; style="padding:10px; padding-top:13px; float:right" /> </a>
-                    <a href="https://twitter.com/dierdremusic"><img src="~/images/Social Media Icons/grayTwitter.png" title="Twitter"; style="padding:10px; padding-top:13px; float:right"/> </a>
-                    <a href="http://www.thepicta.com/user/dierdremusic/1578291254"><img src="~/images/Social Media Icons/grayInstagram.png" title="Instagram"; style="padding:10px; padding-top:13px; float:right"/> </a>
-                    <img src="~/images/Social Media Icons/icons8-Unicorn-48.png"  title="Byron" style="padding:10px; padding-left:55px; padding-top:10px; float:right" />
-                  
+                    <img src="~/images/Social Media Icons/icons8-Unicorn-48.png" title="Mikey" ; style="padding:5px; padding-top:10px; float:right" />
+                    <a href="https://www.facebook.com/dierdremusic/"><img src="~/images/Social Media Icons/grayFB.png" title="Facebook" ; style="padding:5px; padding-top:13px; float:right" /> </a>
+                    <a href="https://twitter.com/dierdremusic"><img src="~/images/Social Media Icons/grayTwitter.png" title="Twitter" ; style="padding:5px; padding-top:13px; float:right" /> </a>
+                    <a href="http://www.thepicta.com/user/dierdremusic/1578291254"><img src="~/images/Social Media Icons/grayInstagram.png" title="Instagram" ; style="padding:5px; padding-top:13px; float:right" /> </a>
+                    <img src="~/images/Social Media Icons/icons8-Unicorn-48.png" title="Byron" style="padding:5px; padding-left:40px; padding-top:10px; float:right" />
+
 
                 </ul>
             </div>

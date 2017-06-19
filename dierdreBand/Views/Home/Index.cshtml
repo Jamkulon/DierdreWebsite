@@ -23,9 +23,14 @@
     a:active {
         color: blue;
     }
+
+    .carousel-indicators li { 
+        visibility: hidden;
+
+    }
 </style>
 <body>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -42,12 +47,14 @@
             </div>
             <div class="item">
                 <center>
-                    <img src="~/images/Dierdre10.jpg" align="bottom" lt="Visual Studio" class="img-responsive">
+                    <a href="https://squareup.com/store/dierdre/item/i-ve-come-to-life-cd"><img src="~/images/Album Covers/albumCover.png" align="bottom" lt="Visual Studio" class="img-responsive"></a>
                 </center>
 
                 <div class="carousel-caption" role="option">
                     <div style="text-align:center">
-
+                        <p>
+                            New Album! Click to Get the Latest Album Release:
+                        </p>
                     </div>
                 </div>
             </div>
